@@ -1,0 +1,32 @@
+{
+  "name": "inkdown",
+  "version": "0.1.0",
+  "description": "Markdown for handwriting",
+  "main": "index.js",
+  "scripts": {
+    "publish": "babel index.js --presets=latest | node", 
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anqurvanillapy/inkdown.git"
+  },
+  "keywords": [
+    "markdown",
+    "handwriting"
+  ],
+  "author": "AnqurVanillapy",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/anqurvanillapy/inkdown/issues"
+  },
+  "homepage": "https://github.com/anqurvanillapy/inkdown#readme",
+  "dependencies": {
+    "dot": "^1.1.1",
+    "marked": "^0.3.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
