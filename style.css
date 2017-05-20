@@ -1,0 +1,45 @@
+body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap;
+  font-family: 'Nothing You Could Do', cursive;
+}
+
+section {
+  width: 30em;
+  margin: 8px;
+  padding: 8px;
+  border: solid 1px #eee;
+  box-shadow: 3px 3px #eee;
+}
+
+pre.text { white-space: pre-wrap; }
+
+/* Specs. */
+
+h1::before { content: "X "; }
+h2::before { content: "XX "; }
+h3::before { content: "XXX "; }
+h4::before { content: "XXXX "; }
+h5::before { content: "XXXXX "; }
+h6::before { content: "XXXXXX "; }
+
+strong {
+  font-weight: 400;
+  text-decoration: underline;
+  text-decoration-style: double;
+}
+
+em {
+  font-style: normal;
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+code::before { content: "`"; }
+code::after { content: "'"; }
