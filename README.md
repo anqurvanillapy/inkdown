@@ -24,7 +24,7 @@ Headers are prefixed with `X`s.
 
 **Strong** texts are underlined double, and used for highlighting some
 **terminologies**. *Italic* texts are underline wavy, for emphasizing *anything
-important*. ~~Deleted~~ texts are strikethroughed-ed, that's the way it is.
+important*. ~~Deleted~~ texts are strikethrough-ed, that's the way it is.
 
 ### Ordered lists
 
