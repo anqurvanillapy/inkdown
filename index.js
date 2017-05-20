@@ -2,6 +2,7 @@ import marked from 'marked'
 import fs from 'fs'
 
 const text = fs.readFileSync('README.md', 'utf-8')
+const css = fs.readFileSync('style.css', 'utf-8')
 const payload = marked(text)
 let output =
 `<!DOCTYPE html>
@@ -12,9 +13,9 @@ let output =
   <meta name="viewport" content="initial-scale=1">
   <meta name="description" content="Markdown for handwriting">
   <meta name="author" content="AnqurVanillapy">
-  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Nothing+You+Could+Do">
   <title>Inkdown</title>
+  <style>${css}</style>
 </head>
 <body>
   <section>
