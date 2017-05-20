@@ -4,7 +4,7 @@
   "description": "Markdown for handwriting",
   "main": "index.js",
   "scripts": {
-    "publish": "babel index.js --presets=latest | node", 
+    "build": "babel index.js --presets=latest | node",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,7 +22,6 @@
   },
   "homepage": "https://github.com/anqurvanillapy/inkdown#readme",
   "dependencies": {
-    "dot": "^1.1.1",
     "marked": "^0.3.6"
   },
   "devDependencies": {
